@@ -11,7 +11,7 @@ public class HomeWork2_1 {
     public static void main(String[] args){
         int a = 10;
         boolean b = true;
-        String c = "Hello World";
+        String c = "Hello";
         double d = 1.23;
         float e = 1.54f;
         
