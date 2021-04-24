@@ -1,8 +1,7 @@
 
 import java.util.Scanner;
 
-
-public class lab6_To_10 {
+public class lab6_To_8 {
 
     public static void main(String[] args) {
         int i = 1;
@@ -47,7 +46,7 @@ public class lab6_To_10 {
         } while (number >= 1);
         System.out.println("");
         System.out.println("################");
-        
+
         // Lab 7.2
         Scanner kb = new Scanner(System.in);
         //int n;
@@ -61,9 +60,15 @@ public class lab6_To_10 {
             }
         } while (n % 2 == 0);
         System.out.println("จบการทำงานของโปรแกรม");
-                System.out.println("");
+        System.out.println("");
         System.out.println("################");
-        
+
         // Lab 8
+        for (int count = 20; count >= 0; count--) {
+            if (count == 11) {
+                System.out.println("Count : " + count);
+                break;
+            }
+        }
     }
 }
