@@ -6,4 +6,16 @@ class IPhone extends MobilePhone {
         super(name);
         AppStore();
     }
+    
+    public void AppStore() {
+        System.out.println("AppStore()");
+    }
+    
+    public void FaceID() {
+        System.out.println("FaceID()");
+    }
+
+    public void TouchID() {
+        System.out.println("TouchID()");
+    }
 }
