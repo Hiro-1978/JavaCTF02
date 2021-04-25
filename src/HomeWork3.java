@@ -19,10 +19,10 @@ public class HomeWork3 {
         // 3.3
         float n1 = 1.25f;
         float n2 = 2.25f;
-        
+
         char c1 = 'A';
         char c2 = 'Z';
-        
+
         if ((n1 == 1.25) && (n2 == 2.25)) {
             System.out.println("N1 is 1.25 AND N2 is 2.25");
         }
