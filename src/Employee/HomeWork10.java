@@ -17,5 +17,6 @@ public class HomeWork10 {
         System.out.println(employees[2].firstname);
         System.out.println(employees[2].lastname);
         System.out.println(employees[2].getSalary());
+        
     }
 }

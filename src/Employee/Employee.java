@@ -14,7 +14,7 @@ public class Employee {
     }
 
     public void hello() {
-        System.out.println("Hello " + firstname);
+        System.out.println("Hello " +firstname);
     }
 
     public int getSalary() {
