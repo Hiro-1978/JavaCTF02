@@ -4,7 +4,8 @@ public class Employee {
     public   String firstname;
     public   String lastname;
     private  int salary;
-   
+    public String position;
+    
     public Employee(String firstnameInput, String lastnameInput, int salaryInput) {
         this.firstname = firstnameInput;
         this.lastname = lastnameInput;
@@ -18,6 +19,10 @@ public class Employee {
     }
     public void hello() {
         System.out.println("Hello "+this.firstname+" "+this.lastname);
+    }
+    
+    public void checkPosition() {
+        System.out.println("My Position Very Good ");
     }
 }
 
