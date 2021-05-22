@@ -1,8 +1,8 @@
 package day10;
 
 public class Programmer extends Employee {   
-    public Programmer(String firstnameInput, String lastnameInput, int salaryInput) {
-        super(firstnameInput, lastnameInput, salaryInput);
+    public Programmer(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
+        super(firstnameInput, lastnameInput, salaryInput, positionInput);
     }
     public void fixPC(String serialNumber) {
         System.out.println("I'm trying to fix PC serialNumber:" + serialNumber);

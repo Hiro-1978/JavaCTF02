@@ -1,8 +1,8 @@
 package day10;
 
 public class CEO extends Employee {   
-    public CEO(String firstnameInput, String lastnameInput, int salaryInput) {
-        super(firstnameInput, lastnameInput, salaryInput);
+    public CEO(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
+        super(firstnameInput, lastnameInput, salaryInput, positionInput);
     }
     @Override
     public int getSalary() {

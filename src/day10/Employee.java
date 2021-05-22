@@ -6,10 +6,11 @@ public class Employee {
     private  int salary;
     public String position;
     
-    public Employee(String firstnameInput, String lastnameInput, int salaryInput) {
+    public Employee(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
         this.firstname = firstnameInput;
         this.lastname = lastnameInput;
         this.salary = salaryInput;
+        this.position = positionInput;
     }
     public void setSalary(int newSalary) {
         
@@ -22,7 +23,7 @@ public class Employee {
     }
     
     public void checkPosition() {
-        System.out.println("My Position Very Good ");
+        System.out.println("My Position is  "+position);
     }
 }
 
